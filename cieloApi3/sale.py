@@ -8,6 +8,7 @@ class Sale(ObjectJSON):
         self.merchant_order_id = merchant_order_id
         self.customer = None
         self.payment = None
+        self.payment_facilitator = None
 
     def update_return(self, r):
 
